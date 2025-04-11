@@ -1,0 +1,172 @@
+body{
+    display: block;
+    background-color: rgb(174, 100, 89);
+    /* background-image: url(defaultImages/Border_Dark.svg); */
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Ubuntu", sans-serif;
+}
+
+
+.headContainer{
+    margin: auto;
+    margin-top: 30px;
+    width: 98%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 5px;
+    border-radius: 20px;
+    border-style: solid;
+    background-color: rgb(255, 66, 36);
+    background-image: url(defaultImages/gamesBackground.svg);
+    background-size: 200px;
+    border-color: rgb(218, 59, 34);
+    box-shadow: 0px 8px 0px rgb(171, 45, 26);
+}
+
+.headContainer h1{
+    font-size: 65px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.productContainer{
+    margin: auto;
+    margin-top: 30px;
+    width: 98%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 5px;
+    border-radius: 20px;
+    border-style: solid;
+    background-color: white;
+    border-color: rgb(218, 59, 34);
+    box-shadow: 0px 8px 0px rgb(171, 45, 26);
+}
+
+.imageBox{
+    overflow: hidden;
+    margin: auto;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    border-radius: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 5px;
+    background-color: blue;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: rgb(218, 59, 34);
+    box-shadow: 0px 8px 0px rgb(171, 45, 26);
+}
+
+
+
+.contentBox{
+    margin: auto;
+    margin-left: 0px;
+    margin-top: 25px;
+}
+
+.contentBox h1{
+    font-size: 40px;
+    margin: auto;
+}
+
+.itemLink{
+    text-decoration: none;
+    color: black;
+}
+
+.itemLink:hover{
+    color: blue;
+}
+
+.gameType{
+    font-size: 22px;
+    margin: auto;
+    margin-top: 5px;
+    color: rgb(105, 105, 105);
+}
+
+.words{
+    color: black;
+    font-size: 24px;
+}
+
+.numberOfPlayers{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+.numberOfPlayers i{
+    color: rgb(255, 66, 36);
+    font-size: 40px;
+}
+
+.numberOfPlayers p{
+    color: rgb(255, 66, 36);
+    font-size: 32px;
+    margin: auto;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.buttons{
+    width: max-content;
+    height: max-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.buyBtn{
+    width: 250px;
+    height: 100px;
+    background-color: rgb(255, 66, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(218, 59, 34);
+    box-shadow: 0px 8px 0px rgb(171, 45, 26);
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.buyBtn i{
+    margin: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.buyBtn:hover{
+    box-shadow: 0px 12px 0px rgb(171, 45, 26);
+}

@@ -1,0 +1,144 @@
+.header {
+
+    left: 0.5%;
+    width: 98%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    border-width: 5px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(175, 175, 175);
+    box-shadow: 0px 8px 0px rgb(137, 137, 137);
+
+}
+
+#navAbsolute{
+    position: absolute;
+}
+
+.navRelative{
+    position: relative;
+}
+
+.logo {
+    width: 60px;
+    z-index: 100;
+    margin: auto;
+    margin-left: 200px;
+}
+
+.navbar{
+    z-index: 100;
+    margin: auto;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.headerLink{
+    margin: auto;
+    border-radius: 30px;
+    font-size: 25px;
+    font-weight: 500;
+    justify-content: space-between;
+    background-color: transparent;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+
+
+#active{
+    color:rgb(150, 10, 0);
+    transition: 0.3s;
+}
+
+#active:hover{
+    color: black;
+}
+
+#active:hover i{
+    color: black;
+}
+
+#active i{
+    margin: auto;
+    margin-right: 10px;
+    color:rgb(150, 10, 0);
+    transition: 0.3s;
+}
+
+
+
+#productLink{
+    color:rgb(255, 66, 36);
+    transition: 0.3s;
+}
+
+#productLink i{
+    margin: auto;
+    margin-right: 10px;
+    color:rgb(255, 66, 36);
+    transition: 0.3s;
+}
+
+#productLink:hover{
+    color: black;
+}
+
+#productLink:hover i{
+    color: black;
+}
+
+
+
+#aboutLink{
+    color:rgb(255, 115, 55);
+    transition: 0.3s;
+}
+
+#aboutLink i{
+    margin: auto;
+    margin-right: 10px;
+    color:rgb(255, 115, 55);
+    transition: 0.3s;
+}
+
+#aboutLink:hover{
+    color: black;
+}
+
+#aboutLink:hover i{
+    color: black;
+}
+
+
+
+#contactLink{
+    color:rgb(205, 205, 0);
+}
+
+#contactLink i{
+    margin: auto;
+    margin-right: 10px;
+    color:rgb(205, 205, 0);
+}
+
+#cartLink{
+    color:rgb(0, 181, 54);
+}
+
+#cartLink i{
+    margin: auto;
+    margin-right: 10px;
+    color:rgb(0, 181, 54);
+}
