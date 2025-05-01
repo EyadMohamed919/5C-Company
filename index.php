@@ -19,6 +19,24 @@
             <a href="#" class="headerLink" id="aboutLink"><i class="fa-solid fa-circle-question"></i>About</a>
             <a href="#" class="headerLink" id="contactLink"><i class="fa-solid fa-envelope"></i>Contact Us</a>
             <a href="#" class="headerLink" id="cartLink"><i class="fa-solid fa-cart-shopping"></i>Cart</a>
+            <?php
+                session_start();
+                if(isset($_SESSION["loged"]))
+                {
+                    if($_SESSION["loged"] == true)
+                    {
+                        echo "<a href=\"accountPage.php\" class=headerLink id=loginLink><i class=\"fa-solid fa-right-from-bracket\"></i></a>";
+                    }
+                    else
+                    {
+                        echo "<a href=login.php class=headerLink id=loginLink><i class=\"fa-solid fa-user\"></i> login</a>";
+                    }
+                }
+                else
+                {
+                    echo "<a href=login.php class=headerLink id=loginLink><i class=\"fa-solid fa-user\"></i> login</a>";
+                }
+            ?>
         </nav>
     </div>
 

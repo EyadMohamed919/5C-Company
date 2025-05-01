@@ -142,3 +142,14 @@
     margin-right: 10px;
     color:rgb(0, 181, 54);
 }
+
+
+#loginLink{
+    color:black;
+}
+
+#loginLink i{
+    margin: auto;
+    margin-right: 10px;
+    color:black;
+}
